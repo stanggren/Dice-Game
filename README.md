@@ -1,5 +1,5 @@
 # Dice-Game
-##Simple DOM game using Javascript
+### Simple DOM game using Javascript
 
 GAME RULES:
 
