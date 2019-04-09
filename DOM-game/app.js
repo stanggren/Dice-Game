@@ -23,6 +23,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             roundScore += dice1 + dice2;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
+            swal("Yikes!", "You rolled a 1.", "error");
             nextPlayer();
         }
     }    
